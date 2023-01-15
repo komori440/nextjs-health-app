@@ -1,11 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff url(../img/bg.gif) no-repeat left top;
+  font-family: Verdana, sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+
+} */
+
+p,
+li,
+dt,
+dl {
+  line-height: 1.6;
+  margin: 10px;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border: 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+address {
+  font-style: normal;
+}
+
+i {
+}
+
 .clear {
   clear: both;
 }
 
-/* .add_record_btn {
-  position: fixed;
+.add-record-btn {
+  /* position: fixed;
   bottom: 50px;
-  right: 50px;
+  right: 50px; */
   border: none;
   border-radius: 50%;
   background-color: #007bff;
@@ -14,12 +62,12 @@
   height: 80px;
   font-size: 20px;
   opacity: 0.5;
-  z-index: 2;
-} */
+  /* z-index: 2; */
+}
 
-/* .add-record-btn:hover {
+.add-record-btn:hover {
   opacity: 1;
-} */
+}
 
 /* header */
 .navbar {
@@ -30,7 +78,8 @@
 }
 
 /* highlight */
-.foodpic__highlight {
+
+.foodpic-highlight {
   display: flex;
   overflow-x: scroll;
   margin: 0;
@@ -44,17 +93,17 @@
   list-style: none;
 }
 
-.highlight_item {
+.highlight-item {
   background-color: #007bff;
   border-radius: 20px;
   padding: 10px;
   max-width: 300px;
   color: #fff;
-  margin: 40px;
-  }
+}
 
 /* profile  */
-.user_img {
+
+.user-img {
   border: 0;
   width: 250px;
   height: 250px;
@@ -63,7 +112,7 @@
   background-color: gray;
 }
 
-.user_info {
+.user-info {
   background-color: #e9ecef;
   padding: 20px;
 }
